@@ -1,0 +1,116 @@
+:root {
+  /* original palette colors */
+  --color-one: rgba(234, 252, 237, 0.95);
+  --color-two: rgba(213, 255, 220, 0.95);
+  --color-three: #d5ffdc;
+  --color-four: #2ddf5c;
+  --color-five: #19b84c;
+  --color-six: #0e4f1f;
+  --color-seven: rgba(14, 79, 31, 0.95);
+  --color-eight: #ffcede;
+  --color-nine: #ff1b68;
+  --shade-one: #fff;
+  --shade-two: #ccc;
+  --shade-three: #bbb;
+  --shade-four: #979797;
+  --shade-five: #7a7a7a;
+  --shade-six: #424242;
+  --shade-seven: #000;
+  /* ============ */
+  /* --color-one: #fbf6ea;
+  --color-two: #f2e3c0;
+  --color-three: #e9d196;
+  --color-four: #e0be6b;
+  --color-five: #d7ac41;
+  --color-six: #be9228;
+  --color-seven: #94721f;
+  --color-eight: #695116;
+  --color-nine: #3f310d;
+  --color-ten: #151004; */
+  /* ================== */
+  /* --color-one:#F6FFDE;
+   --color-two:#F6FFDE;
+   --color-three:#F6FFDE; 
+  --color-four:#E3F2C1;
+  --color-five:#E3F2C1;
+  --color-six:#C9DBB2;
+  --color-seven:#C9DBB2;
+  --color-eight:#AAC8A7; 
+  --color-nine:#AAC8A7; */
+  /* ============ */
+  --color-one:#d9beb8 ;
+  --color-two: #d99b77;
+  --color-three: #a65221;
+  --color-four: #734b3d;
+  --color-five: #A65221;
+  --color-six: #8ACB88;
+  --color-seven: #0991C3;
+  --color-eight: #07759D;
+  --color-nine: #044962;
+  /* ============ */
+  --tea-rose-red: #efc7c2ff;
+--champagne-pink: #ffe5d4ff;
+--ash-gray: #bfd3c1ff;
+--cambridge-blue: #68a691ff;
+--eggplant: #694f5dff;
+  /* --palette1-four: #fff8de;
+  --palette1-three: #d6e8db;
+  --palette1-two: #c1d0b5;
+  --palette1-one: #99a98f; */
+  /* ================== */
+  /* --color-one: #ffdcb6;
+  --color-two: #fde2f3;
+  --color-three: #e5beec;
+  --color-four: #c9a7eb;
+  --color-five: #b88c9e;
+  --color-six: #704c5e;
+  --color-seven: #9384d1;
+  --color-eight: #917fb3;
+  --color-nine: #2a2f4f; */
+  /* ================== */
+  /* --palette4-one: #e5f9db;
+  --palette4-two: #a0d8b3;
+  --palette4-three: #a2a378;
+  --palette4-four: #83764f; */
+  /* ================== */
+  /* --palette5-four: #f2e8cf;
+  --palette5-three: #a7c957;
+  --palette5-two: #6a994e;
+  --palette5-one: #386641;
+  --palette5-five: #bc4749; */
+  /* ================== */
+  /* --color-one: #c2c5aa;
+  --color-two: #b6ad90;
+  --color-three: #a4ac86;
+  --color-four: #656d4a;
+  --color-five: #414833;
+  --color-six: #333d29;
+  --color-seven: #a68a64;
+  --color-eight: #936639;
+  --color-nine: #7f4f24;
+  --color-ten: #582f0e; */
+  /* ================== */
+  /* --color-one: #5c4d3c;
+  --color-two: #6f523b;
+  --color-three: #815839;
+  --color-four: #935e38;
+  --color-five: #a56336;
+  --color-six: #b76935;
+  --color-seven: #4a473e;
+  --color-eight: #38413f;
+  --color-nine: #263c41;
+  --color-ten: #143642; */
+  /* ================== */
+  /* --color-one: #ffba08;
+  --color-two: #faa307;
+  --color-three: #f48c06;
+  --color-four: #e85d04;
+  --color-five: #dc2f02;
+  --color-six: #d00000;
+  --color-seven: #9d0208;
+  --color-eight: #6a040f;
+  --color-nine: #370617;
+  --color-ten: #03071e; */
+  /* ================== */
+
+}

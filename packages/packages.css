@@ -1,0 +1,123 @@
+/* @font-face {
+  font-family: "Anonymous Pro";
+  src: url("../Anonymous_Pro/AnonymousPro-Regular.ttf");
+}
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url("../Anonymous_Pro/AnonymousPro-Bold.ttf");
+  font-weight: 700;
+} */
+
+main {
+  padding-top: 4rem;
+}
+
+.background {
+  background: url("../images/computer-desk.jpg") black left/cover;
+  /* filter: grayscale(100%); */
+  filter: blur(0.19rem) grayscale(65%);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.package {
+  width: 80%;
+  margin: 1rem 0;
+  border: 0.25rem solid var(--color-six);
+  border-left: none;
+  position: relative;
+}
+
+.package:hover,
+.package:active {
+  box-shadow: 0.13rem 0.13rem 0.25rem var(--shade-three);
+  border-color: var(--color-nine);
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 2rem;
+}
+
+.package__badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.25rem;
+  font-size: 0.75rem;
+  color: var(--shade-one);
+  background: var(--color-nine);
+  padding: 0.5rem;
+}
+
+.package__subtitle {
+  color: var(--shade-four);
+}
+
+.package__info {
+  padding: 1rem;
+  border: 0.06rem solid var(--color-six);
+  /* font-style font-variant font-weight font-size line-height font-family */
+  font-size: 1.25rem;
+  color: var(--color-six);
+  background: var(--shade-one);
+  text-shadow: 2px 2px 2px var(--shade-five);
+}
+
+.clearfix {
+  clear: both;
+}
+
+#plus {
+  background: var(--color-two);
+  background: var(--color-three);
+}
+
+#free {
+  background: var(--color-one);
+  background: var(--color-six);
+  float: right;
+  border-right: none;
+  border-left: 0.25rem solid var(--color-six);
+  text-align: right;
+}
+
+#free:hover,
+#free:active {
+  border-left-color: var(--color-nine);
+}
+
+#premium {
+  background: var(--color-seven);
+  background: var(--color-nine);
+}
+
+#premium .package__title {
+  color: var(--shade-one);
+}
+
+#premium .package__subtitle {
+  color: var(--shade-three);
+}
+@media (min-width: 40rem) {
+  main {
+    margin: 2.2rem auto 1rem;
+    max-width: 93.75rem;
+  }
+}
+@media (min-width: 93.75rem) {
+  .package {
+    border-left: 0.25rem solid var(--color-six);
+  }
+  #free {
+    border-right: 0.25rem solid var(--color-six);
+  }
+  #free:hover,
+  #free:active {
+    border-right-color: var(--color-nine);
+  }
+}
