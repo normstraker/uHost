@@ -35,6 +35,7 @@ main {
 .package:active {
   box-shadow: 0.13rem 0.13rem 0.25rem var(--shade-three);
   border-color: var(--color-nine);
+  animation: lift-package 0.7s ease-out;
 }
 
 .package a {
@@ -80,10 +81,6 @@ main {
 #plus {
   background: var(--color-two);
   background: var(--color-three);
-}
-
-#plus:hover {
-  animation: lift-package 0.5s linear;
 }
 
 #free {
@@ -133,12 +130,12 @@ main {
 
 @keyframes lift-package {
   0% {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
   50% {
-    transform: translateY(-25px);
+    transform: translateY(-1.5rem);
   }
   100% {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
