@@ -82,6 +82,10 @@ main {
   background: var(--color-three);
 }
 
+#plus:hover {
+  animation: lift-package 0.5s linear;
+}
+
 #free {
   background: var(--color-one);
   background: var(--color-six);
@@ -124,5 +128,17 @@ main {
   #free:hover,
   #free:active {
     border-right-color: var(--color-nine);
+  }
+}
+
+@keyframes lift-package {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }

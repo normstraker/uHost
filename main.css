@@ -43,7 +43,9 @@
   margin: 0.5rem 0;
 }
 
-.plan h1, .plan h2, .plan h3{
+.plan h1,
+.plan h2,
+.plan h3 {
   margin-top: 0;
 }
 
@@ -132,7 +134,9 @@
 
 .modal {
   position: fixed;
-  display: none;
+  opacity: 0;
+  transform: translateY(-6rem);
+  transition: opacity .5s ease-out, transform .5s ease-out;
   z-index: 200;
   top: 20%;
   left: 30%;
@@ -191,7 +195,7 @@
   #plans {
     text-align: center;
   }
-  .plan__list{
+  .plan__list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +243,7 @@
     flex-direction: column;
     width: 24%;
   }
-  .key-feature__list{
+  .key-feature__list {
     display: flex;
     justify-content: space-around;
   }
